@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<title>Contacto</title>
+</head>
+<body>
+	<h1>Contacto</h1>
+
+	<form action="/action_page.php">
+  	<label for="birthday">Fecha de Nacimiento:</label>
+  	<input type="date" id="birthday" name="birthday">
+  	
+	</form>
+	
+	<form action="/action_page.php">
+  	<label for="fname">Nombres:</label><br>
+  	<input type="text" id="fname" name="fname"><br>
+  	<label for="lname">Apellido Paterno:</label><br>
+  	<input type="text" id="lname" name="lname"><br><br>
+	<label for="lname">Apellido Materno:</label><br>
+  	<input type="text" id="lname" name="lname"><br><br>
+	<label for="lname">Calle:</label><br>
+  	<input type="text" id="lname" name="lname"><br><br>
+  	<label for="lname">Colonia:</label><br>
+  	<input type="text" id="lname" name="lname"><br><br>
+	
+	<form action="/action_page.php">
+  	<label for="quantity">Codigo Postal:</label>
+  	<input type="number" id="quantity" name="quantity" min="1" max="999999">
+  	
+	</form>
+	
+	</form>
+	
+ 	<label for="pais">Seleccione su país</label>
+
+	<select name="pais" id="country">
+  	<option value="MX">México</option>
+  	<option value="AR">Argentina</option>
+  	<option value="BO">Bolivia</option>
+  	<option value="CHI">Chile</option>
+	<option value="CO">Colombia</option>
+  	<option value="PE">Perú</option>
+  	<option value="VE">Venezuela</option>
+  	<option value="EC">Ecuador</option>
+	<option value="CU">Cuba</option>
+  	<option value="GU">Guatemala</option>
+	</select> 
+
+	<label for="estado">Seleccione su Estado</label>
+
+	<select name="estado" id="state">
+  	<option value="st">Chihuahua</option>
+  	<option value="st">Jalisco</option>
+  	<option value="st">Nuevo León</option>
+  	<option value="st">Sonora</option>
+	<option value="st">Sinaloa</option>
+  	<option value="st">Chiapas</option>
+  	<option value="st">Yucatán</option>
+  	<option value="st">Michoacán</option>
+	<option value="st">Oaxaca</option>
+  	<option value="st">Ciudad de México</option>
+	</select> 
+
+	<input type="submit" value="Submit">
+	
+	<form action="/html/tags/html_form_tag_action.cfm" method="post">
+	<div>
+	<textarea name="comments" id="comments" style="font-family:sans-serif;font-size:1.2em;">
+	Danos tus comentarios...
+	</textarea>
+	</div>
+	<input type="submit" value="Submit">
+	</form>
+	
+
+	
+</body>
+</html>
