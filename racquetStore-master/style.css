@@ -57,9 +57,32 @@ img#navBarLogo {
 	margin: 5px;
 	border: 1px solid #ccc;
 	float: left;
+	
+	
 }
 
-#divSectionFour{
+div.gallery {
+	margin: 5px;
+	border: 1px solid #ccc;
+	float: left;
+	width: auto;
+}
+
+	div.gallery:hover {
+		border: 1px solid #777;
+	}
+
+	div.gallery img {
+		width: auto;
+		height: auto;
+	}
+
+div.desc {
+	padding: 15px;
+	text-align: center;
+}
+
+#divSectionFour {
 	height: 600px;
 	font-family: Lato;
 }
